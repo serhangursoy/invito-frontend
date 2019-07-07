@@ -1,0 +1,26 @@
+
+
+.containedPrimary {
+  background: red;
+}
+
+.declineButton {
+  background: red !important;
+  background-color: red !important;
+}
+
+.acceptButton {
+  background: green !important;
+  background-color: green !important;
+  margin-right: 10% !important;
+}
+.SearchInput {
+  color: white !important;
+}
+.replied {
+  background: gray !important;
+}
+
+.acceptButton > span, .declineButton > span {
+  color: white !important;
+}

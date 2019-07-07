@@ -1,0 +1,43 @@
+{
+  "name": "invito",
+  "version": "1.0.0",
+  "description": "Simple invitation manager. Invito!",
+  "main": "dist/index.js",
+  "dependencies": {
+    "@material-ui/core": "3.9.2",
+    "@material-ui/icons": "3.0.2",
+    "react": "16.8.1",
+    "react-dom": "16.8.1",
+    "react-router-dom": "4.3.1",
+    "react-scripts": "2.1.5",
+    "universal-cookie": "^4.0.1"
+  },
+  "scripts": {
+    "start": "PORT=8080 react-scripts start",
+    "start-windows": "set PORT=8080 && react-scripts start",
+    "build": "react-scripts build",
+    "deploy": "pm2 start ./server.sh --name JAMClient",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
+    "lint:check": "eslint . --ext=js,jsx;  exit 0",
+    "lint:fix": "eslint . --ext=js,jsx --fix;  exit 0",
+    "build-package-css": "cp src/assets/css/material-dashboard-react.css dist/material-dashboard-react.css",
+    "build-package": "npm run build-package-css && babel src --out-dir dist"
+  },
+  "author": "Serhan Gürsoy",
+  "license": "MIT",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "eslint-config-prettier": "4.0.0",
+    "eslint-plugin-prettier": "3.0.1",
+    "react-test-renderer": "^16.8.6"
+  }
+}
