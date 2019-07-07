@@ -1,4 +1,4 @@
-# JAM Invitation Manager Assignment
+# Invito - Invitation Manager
 
 ## Requirements
 
