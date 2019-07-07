@@ -6,6 +6,7 @@ Make sure that you have nodejs installed on your machine. Also, you need npm or 
 
 ## Install Deps
 This might take awhile..
+
     $ git clone https://github.com/serhangursoy/invito-frontend.git
     $ cd invito-frontend
     $ npm install
