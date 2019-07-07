@@ -1,5 +1,7 @@
 # Invito - Invitation Manager
 
+![ss](http://tw.greywool.com/i/QfSba.png)
+
 ## Requirements
 
 Make sure that you have nodejs installed on your machine. Also, you need npm or yarn.
@@ -20,7 +22,11 @@ This might take awhile..
     $ npm test
 
 
-## Helpers
+## How it looks?
+
+![ss](http://tw.greywool.com/i/NhfAV.png)
+![ss](http://tw.greywool.com/i/Mal1F.png)
+![ss](http://tw.greywool.com/i/gTWbB.png)
 
 ### Framework
 
